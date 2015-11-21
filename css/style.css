@@ -1,0 +1,9 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ffffff;
+	background-image: url("img/pattern.jpg");
+	background-repeat: repeat;
+}
