@@ -61,6 +61,37 @@ body {
 	.navbar-brand {
 		width: 100%;
 	}
+
+	.nav > li > a:hover, .nav > li > a:focus {
+		background: transparent;
+	}
+
+	.portfolio {
+		color: black;
+	}
+	
+	.portfolio:hover {
+		color: black;
+		font-weight: 400;
+	}
+	
+	.sobre-mi {
+		color: black;
+	}
+	
+	.sobre-mi:hover {
+		color: black;
+		font-weight: 400;
+	}
+	
+	.contacto {
+		color: black;
+	}
+	
+	.contacto:hover {
+		color: black;
+		font-weight: 400;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -73,6 +104,37 @@ body {
 	.navbar-brand {
 		width: 100%;
 	}
+
+	.nav > li > a:hover, .nav > li > a:focus {
+		background: transparent;
+	}
+
+	.portfolio {
+		color: #995967;
+	}
+	
+	.portfolio:hover {
+		color: #995967;
+		font-weight: 400;
+	}
+	
+	.sobre-mi {
+		color: black;
+	}
+	
+	.sobre-mi:hover {
+		color: black;
+		font-weight: 400;
+	}
+	
+	.contacto {
+		color: black;
+	}
+	
+	.contacto:hover {
+		color: black;
+		font-weight: 400;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -84,5 +146,36 @@ body {
 	
 	.navbar-brand {
 		width: 100%;
+	}
+
+	.nav > li > a:hover, .nav > li > a:focus {
+		background: transparent;
+	}
+
+	.portfolio {
+		color: #995967;
+	}
+	
+	.portfolio:hover {
+		color: #995967;
+		font-weight: 400;
+	}
+	
+	.sobre-mi {
+		color: black;
+	}
+	
+	.sobre-mi:hover {
+		color: black;
+		font-weight: 400;
+	}
+	
+	.contacto {
+		color: black;
+	}
+	
+	.contacto:hover {
+		color: black;
+		font-weight: 400;
 	}
 }
