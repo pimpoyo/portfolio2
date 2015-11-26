@@ -14,13 +14,18 @@ body {
 }
 
 .navbar-custom {
-	background-image: url("../img/pattern.jpg");
-	border-color: #00aef6;
-	min-height: 130px;
+	background: transparent;
+	border-color: transparent;
+	font-size: 36px;
+	line-height: 120%;
 }
 
-#bs-menu {
-	padding-top: 35px;
+.navbar-brand {
+	height: 100%;
+}
+
+.navbar-brand img{
+	float: right;
 }
 
 @media (max-width: 767px) {
@@ -47,13 +52,37 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	.navbar-custom {
+		text-align: right;
+		float: left;
+		width: 100%;
+	}
 
+	.navbar-brand {
+		width: 100%;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	.navbar-custom {
+		text-align: right;
+		float: left;
+		width: 100%;
+	}
+	
+	.navbar-brand {
+		width: 100%;
+	}
 }
 
 @media (min-width: 1200px) {
-
+	.navbar-custom {
+		text-align: right;
+		float: left;
+		width: 100%;
+	}
+	
+	.navbar-brand {
+		width: 100%;
+	}
 }
