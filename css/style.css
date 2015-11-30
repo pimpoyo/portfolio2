@@ -47,15 +47,24 @@ body {
 }
 
 #sobremi {
-	background-color: #FAEFEB;
-	font-size: 32px;
+	background-color: #E4FAFF;
+	font-size: 24px;
 	line-height: 120%;
-	text-align: center;
 }
+
+.miDescripcion {
+	padding: 50px;
+	text-align: justify;
+}
+
 
 .big {
 	font-size: 48px;
 	font-weight: 400;
+}
+
+.bloqueRetrato {
+	padding-top: 50px;
 }
 
 .contacto {
@@ -69,7 +78,55 @@ body {
 
 #contacto {
 	background-color: #E3F3E9;
-}	
+	padding: 5px 35px 25px;
+}
+
+#form1 {
+	width: 80%;
+}
+
+.form-title {
+	font-weight: 300;
+	margin-top: 0;
+	padding: 15px;
+	text-align: center;
+}
+
+.feedback-input {
+    background-color: #fbfbfb;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.feedback-input {
+    margin-bottom: 10px;
+    padding: 13px 13px 13px 54px;
+    width: 100%;
+}
+
+#button {
+	padding-bottom: 22px;
+    padding-top: 22px;
+    width: 100%;
+	border: none;
+}
+
+.btGeneral {
+	background-color: #497359;
+	color: white;
+	transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+}
+
+.btGeneral:hover {
+	background-color: #6C736F;
+}
 
 @media (max-width: 767px) {
 	.navbar-brand {
