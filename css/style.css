@@ -60,19 +60,6 @@ body {
 	font-weight: 400;
 }
 
-.grid::after {
-	clear: both;
-	content: "";
-	display: block;
-	height: 0;
-	line-height: 0;
-	visibility: hidden;
-}
-
-.grid {
-	position: relative;
-}
-
 #sobremi {
 	background-color: #E4FAFF;
 	font-size: 24px;
@@ -229,19 +216,20 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.container {
-		width: 768px;
-		padding-right: 0;		
-	}
-
 	.menu {
 		width: 27%;
+		height: 100%;
+		min-height: 540px;
+		padding-bottom: 70px;
+		z-index: 99;
 	}
 	
 	.contenido {
-		width: 73%;
+		padding-left: 27%;
+		position: relative;	
+		width: 100%;
 	}
-
+	
 	.navbar-custom {
 		text-align: right;
 		float: left;
@@ -271,16 +259,18 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-	.container {
-		width: 992px;		
-	}
-	
 	.menu {
 		width: 27%;
+		height: 100%;
+		min-height: 540px;
+		padding-bottom: 70px;
+		z-index: 99;
 	}
 	
 	.contenido {
-		width: 73%;
+		padding-left: 27%;
+		position: relative;	
+		width: 100%;
 	}
 
 	.navbar-custom {
@@ -301,7 +291,7 @@ body {
 
 @media (min-width: 1200px) {
 	.menu {
-		width: 27%;
+		width: 23%;
 		height: 100%;
 		min-height: 540px;
 		padding-bottom: 70px;
@@ -309,9 +299,9 @@ body {
 	}
 	
 	.contenido {
-		padding-left: 27%;
+		padding-left: 23%;
 		position: relative;	
-		width: 73%;
+		width: 80%;
 	}
 	
 	.navbar-custom {
