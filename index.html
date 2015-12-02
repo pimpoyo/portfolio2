@@ -11,88 +11,91 @@
 		<title>Pimpoyo</title>
 	</head>
 	<body>
-		<div class="container">
-			<div class="col-sm-3 col-md-3 col-lg-3 fijo">
-					<a class="navbar-brand" href="#">
-						<img alt="Pimpoyo" src="img/logo.png">
+		<div class="menu">
+				<a class="navbar-brand" href="#">
+					<img alt="Pimpoyo" src="img/logo.png">
+				</a>
+			<nav class="navbar navbar-default navbar-custom" role="navigation">
+    			<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu" aria-expanded="false">
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+        			</button>
+    			</div>
+    			<div class="collapse navbar-collapse" id="bs-menu">
+        			<ul class="nav nav-stacked" id="accordion">
+						<li id="l1"><a data-hover="Portfolio" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-explanded="true" aria-controls="collapseOne" class="portfolio">Portfolio</a>
+							<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+  								<div class="panel-body">
+									<ul class="nav nav-stacked">
+										<li><a data-hover="Todo" href="#portfolio" class="portfolio">Todo</a></li>
+										<li><a data-hover="filtro1" href="#filtro1" class="filtro1">filtro1</a></li>
+										<li><a data-hover="filtro1" href="#filtro1" class="filtro1">filtro1</a></li>
+  									</ul>
+								</div>
+							</div>	
+						</li>
+						<li id="l2"><a data-hover="Sobre mí" href="#sobremi" class="sobre-mi">Sobre mí</a></li>
+						<li id="l3"><a data-hover="Contacto" href="#contacto" class="contacto">Contacto</a></li>
+        			</ul>
+    			</div><!-- /.navbar-collapse -->
+			</nav>	
+		</div>
+		<div class="contenido">
+			<div id="portfolio">
+				<div class="grid">
+					<a class="trabajo trabajo25" href="#">
+						<div class="trabajo-inner">
+							<img src="img/main-calendar.jpg">
+						</div>	
+						<div class="trabajo-inner-back">
+							<div class="module-inner-back-inner">
+								<span class="btn btn01" title="Ver proyecto eQualtiq">Ver proyecto</span>
+								<h2 class="title01b">eQualtiq</h2>
+								<ul class="list02">
+									<li class="first-child">Naming</li>
+									<li>Creación de marca</li>
+									<li>Universo visual</li>
+									<li class="last-child">Comunicación</li>
+								</ul>
+							</div>
+						</div>	
 					</a>
-				<nav class="navbar navbar-default navbar-custom" role="navigation">
-        			<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu" aria-expanded="false">
-                			<span class="icon-bar"></span>
-                			<span class="icon-bar"></span>
-                			<span class="icon-bar"></span>
-            			</button>
-        			</div>
-        			<div class="collapse navbar-collapse" id="bs-menu">
-            			<ul class="nav nav-stacked" id="accordion">
-							<li id="l1"><a data-hover="Portfolio" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-explanded="true" aria-controls="collapseOne" class="portfolio">Portfolio</a>
-								<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      								<div class="panel-body">
-										<ul class="nav nav-stacked">
-											<li><a data-hover="Todo" href="#portfolio" class="portfolio">Todo</a></li>
-											<li><a data-hover="filtro1" href="#filtro1" class="filtro1">filtro1</a></li>
-											<li><a data-hover="filtro1" href="#filtro1" class="filtro1">filtro1</a></li>
-      									</ul>
-									</div>
-    							</div>	
-							</li>
-							<li id="l2"><a data-hover="Sobre mí" href="#sobremi" class="sobre-mi">Sobre mí</a></li>
-							<li id="l3"><a data-hover="Contacto" href="#contacto" class="contacto">Contacto</a></li>
-            			</ul>
-        			</div><!-- /.navbar-collapse -->
-    			</nav>	
-			</div>
-			<div class="col-sm-9 col-md-9 col-lg-9 contenido">
-				<div id="portfolio">
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-					Estoy en portfolio
-				</div>
-				<div id="sobremi">
-					<div class="miDescripcion">
-						<p>Mi nombre es Ana, el diseño y la programación web es mi estilo de vida, creo en la pasión, en el cuidado en el detalle, porque hace que el diseño sea especial en cada proyecto y tengan ese "toque" de  personalidad que los hace diferentes del resto.</p>
-						<p>Mi experiencia profesional avalada por los proyectos en que he participado,  abarca tanto la experiencia de usuario mediante el diseño simple y eficaz, como la parte de administración que nos permite una actualización rápida de los contenidos, consiguiendo un asesoramiento y una gestión integrada del proyecto.</p>
-						<p class="oscuro">Echa un vistazo a mi <a class="enlace" href="#portfolio">portfolio</a> y usa el formulario de <a class="enlace" href="#contacto">contacto</a>.</p>	
-							<!--<p>Me considero una persona muy curiosa. Esta curiosidad me ha llevado a interesarme por campos muy diferentes: desde el desarrollo backend, pasando por frontend hasta el diseño gráfico.</p>
-							<p>El ser una persona observadora me ha llevado a aprender mucho de los compañeros que voy teniendo durante mi carrera laboral. Por
-								otro lado, mi yo artesano hace que sea una persona paciente y muy detallista con el trabajo que desempeño, haciéndome mejorar
-								día a día.</p>-->
-					</div>
-					<div class="autorretrato">
-						<img src="img/autorretrato_960.png" alt="autorretrato">
-					</div>
-				</div>
-				<div id="contacto">
-					<form id="form1" action="php/validator.php" method="POST">
-        		          <h3 class="form-title">Si quieres saber más o ponerte en contacto conmigo, estaré encantada de atenderte.</h3>
-        		           <p class="name">
-							   <input name="name" type="text" class="feedback-input" placeholder="Nombre" id="name" pattern=".{3,}" maxlength="100" required/>
-        		           </p>
-        		           <p class="email">
-        		             <input name="email" type="email" class="feedback-input" id="email" placeholder="Email" maxlength="100" required/>
-        		           </p>
-        		           <p class="textArea">
-        		             <textarea name="textArea" class="feedback-input" id="textArea" placeholder="Texto" rows="10" maxlength="1000" required></textarea>
-        		           </p>
-        		           <div class="submit">
-        		               <input type="submit" value="Enviar" id="button" class="btGeneral"/>
-        		           </div>
-        		     </form>	
 				</div>
 			</div>
-		</div><!-- container-->
+			<div id="sobremi">
+				<div class="miDescripcion">
+					<p>Mi nombre es Ana, el diseño y la programación web es mi estilo de vida, creo en la pasión, en el cuidado en el detalle, porque hace que el diseño sea especial en cada proyecto y tengan ese "toque" de  personalidad que los hace diferentes del resto.</p>
+					<p>Mi experiencia profesional avalada por los proyectos en que he participado,  abarca tanto la experiencia de usuario mediante el diseño simple y eficaz, como la parte de administración que nos permite una actualización rápida de los contenidos, consiguiendo un asesoramiento y una gestión integrada del proyecto.</p>
+					<p class="oscuro">Echa un vistazo a mi <a class="enlace" href="#portfolio">portfolio</a> y usa el formulario de <a class="enlace" href="#contacto">contacto</a>.</p>	
+						<!--<p>Me considero una persona muy curiosa. Esta curiosidad me ha llevado a interesarme por campos muy diferentes: desde el desarrollo backend, pasando por frontend hasta el diseño gráfico.</p>
+						<p>El ser una persona observadora me ha llevado a aprender mucho de los compañeros que voy teniendo durante mi carrera laboral. Por
+							otro lado, mi yo artesano hace que sea una persona paciente y muy detallista con el trabajo que desempeño, haciéndome mejorar
+							día a día.</p>-->
+				</div>
+				<div class="autorretrato">
+					<img src="img/autorretrato_960.png" alt="autorretrato">
+				</div>
+			</div>
+			<div id="contacto">
+				<form id="form1" action="php/validator.php" method="POST">
+    		          <h3 class="form-title">Si quieres saber más o ponerte en contacto conmigo, estaré encantada de atenderte.</h3>
+    		           <p class="name">
+						   <input name="name" type="text" class="feedback-input" placeholder="Nombre" id="name" pattern=".{3,}" maxlength="100" required/>
+    		           </p>
+    		           <p class="email">
+    		             <input name="email" type="email" class="feedback-input" id="email" placeholder="Email" maxlength="100" required/>
+    		           </p>
+    		           <p class="textArea">
+    		             <textarea name="textArea" class="feedback-input" id="textArea" placeholder="Texto" rows="10" maxlength="1000" required></textarea>
+    		           </p>
+    		           <div class="submit">
+    		               <input type="submit" value="Enviar" id="button" class="btGeneral"/>
+    		           </div>
+    		     </form>	
+			</div>
+		</div>
 
 
 
