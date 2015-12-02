@@ -24,3 +24,11 @@ $("#form1").submit(function(event) {
     });
   event.preventDefault();
 });
+
+$("#l1").click(function(){
+	$("#collapseOne").removeClass("in");
+});
+
+$("#l2").click(function(){
+	$("#collapseOne").removeClass("in");
+});
