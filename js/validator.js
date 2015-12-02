@@ -26,9 +26,13 @@ $("#form1").submit(function(event) {
 });
 
 $("#l1").click(function(){
-	$("#collapseOne").removeClass("in");
+	$("html, body").animate({scrollTop: 0}, "slow");
 });
 
 $("#l2").click(function(){
+	$("#collapseOne").removeClass("in");
+});
+
+$("#l3").click(function(){
 	$("#collapseOne").removeClass("in");
 });
