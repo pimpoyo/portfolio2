@@ -8,7 +8,7 @@ $("#form1").submit(function(event) {
       success: function(data) {
         result = jQuery.parseJSON(data);
         if (result.ok != undefined && result.ok == true) {
-          form.html('<div class="form-success"><h4>El formulario ha sido enviado con éxito</h4><h4>Muchas gracias por ponerse en contacto conmigo</h4></div>');
+          form.html('<div class="form-success"><h3 class="form-title">El formulario ha sido enviado con éxito</h3><h3 class="form-title">Muchas gracias por ponerse en contacto conmigo</h3></div>');
         } else {
           if (result.name != undefined) {
             $("#name").addClass("form-error")
