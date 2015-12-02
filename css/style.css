@@ -21,12 +21,12 @@ body {
 .fijo {
     position: sticky;
     top: 0;
+	z-index: 10000;
 }
 
 .navbar-custom {
 	background: transparent;
 	border-color: transparent;
-	font-size: 36px;
 	line-height: 120%;
 }
 
@@ -149,9 +149,31 @@ body {
 }
 
 @media (max-width: 767px) {
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.fijo {
+		background-image: url("../img/pattern.jpg");
+		background-repeat: repeat;
+	}
+
+	.navbar-custom {
+		font-size: 30px;
+	}
+
 	.navbar-brand {
 		padding-right: 0px;
 		padding-left: 5px;
+		width: 60%;
+	}
+
+	.navbar-brand img {
+		float: left;
+		margin-left: 8%;
+		max-width: 250px;
+		width: 85%;
 	}
 
 	.navbar-toggle {
@@ -169,28 +191,64 @@ body {
 		height: 6px;
 		width: 35px;
 	}
+	
+	.miDescripcion {
+		padding: 50px 8%;
+	}
+
+	.autorretrato img {
+		max-width: 400px;
+		width: 80%;
+	}
+
+	#form1 {
+		width: 92%;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 768px;
+		padding-right: 0;		
+	}
+	
 	.navbar-custom {
 		text-align: right;
 		float: left;
+		font-size: 30px;
 		width: 100%;
 	}
 
 	.navbar-brand {
 		width: 100%;
 	}
+	
+	.navbar-brand img {
+		width: 180px;
+	}
 
 	.nav > li > a:hover, .nav > li > a:focus {
 		background: transparent;
 	}
+	
+	.miDescripcion {
+		padding: 50px 7%;
+	}
+	
+	#form1 {
+		width: 93%;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		width: 992px;		
+	}
+
 	.navbar-custom {
 		text-align: right;
 		float: left;
+		font-size: 36px;
 		width: 100%;
 	}
 	
@@ -211,6 +269,7 @@ body {
 	.navbar-custom {
 		text-align: right;
 		float: left;
+		font-size: 36px;
 		width: 100%;
 	}
 	
