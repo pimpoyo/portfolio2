@@ -18,6 +18,11 @@ body {
 	padding-right: 0;
 }
 
+.fijo {
+    position: sticky;
+    top: 0;
+}
+
 .navbar-custom {
 	background: transparent;
 	border-color: transparent;
