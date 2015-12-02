@@ -73,6 +73,25 @@ body {
 	position: relative;
 }
 
+.trabajo {
+	cursor: pointer;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.trabajo25 {
+	width: 25%;
+}
+
+.trabajo-inner {
+	display: block;
+}
+
+.trabajo-inner img {
+	width: 100%;
+}
+
 #sobremi {
 	background-color: #E4FAFF;
 	font-size: 24px;
