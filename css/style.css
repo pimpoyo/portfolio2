@@ -277,6 +277,18 @@ body {
 		z-index: 99;
 	}
 
+	#portfolio {
+		margin-top: 141px;
+	}
+
+	#sobremi {
+		margin-top: 141px;
+	}
+	
+	#contacto {
+		margin-top: 141px;
+	}
+
 	.contenido {
 		width: 100%;
 	}
@@ -315,7 +327,7 @@ body {
 	}
 	
 	.miDescripcion {
-		padding: 50px 8%;
+		padding: 0 8%;
 	}
 
 	.autorretrato img {
