@@ -271,7 +271,7 @@ body {
 
 @media (max-width: 767px) {
 	.menu {
-		background-image: url("../img/pattern.jpg");
+		background-image: url("../img/pattern.png");
 		background-repeat: repeat;
 		width: 100%;
 		z-index: 99;
