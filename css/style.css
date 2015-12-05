@@ -32,6 +32,7 @@ body {
 .navbar-custom {
 	background: transparent;
 	border-color: transparent;
+	font-size: 28px;
 	line-height: 120%;
 }
 
@@ -43,22 +44,27 @@ body {
 	float: right;
 }
 
-.portfolio {
-	color: black;
-}
-
-.portfolio:hover {
-	color: black;
+.seccion {
 	font-weight: 400;
 }
 
-.sobre-mi {
+#bs-menu ul li a {
 	color: black;
+	padding: 5px 0 0;
 }
 
-.sobre-mi:hover {
-	color: black;
-	font-weight: 400;
+#bs-menu ul li a::before {
+	border-bottom: 1px solid black;
+    color: transparent;
+    content: attr(data-hover);
+    max-width: 0;
+    overflow: hidden;
+	position: absolute;
+    transition: max-width 0.5s ease 0s;
+}
+
+#bs-menu ul li a:hover::before, #bs-menu ul li a:focus::before {
+	max-width: 100%;
 }
 
 .grid::after {
@@ -208,15 +214,6 @@ body {
 	padding-top: 50px;
 }
 
-.contacto {
-	color: black;
-}
-
-.contacto:hover {
-	color: black;
-	font-weight: 400;
-}
-
 #contacto {
 	padding: 5px 35px 25px;
 }
@@ -293,10 +290,6 @@ body {
 		width: 100%;
 	}
 
-	.navbar-custom {
-		font-size: 30px;
-	}
-
 	.navbar-brand {
 		padding-right: 0px;
 		padding-left: 5px;
@@ -358,7 +351,6 @@ body {
 	.navbar-custom {
 		text-align: right;
 		float: left;
-		font-size: 30px;
 		width: 100%;
 	}
 
@@ -401,7 +393,6 @@ body {
 	.navbar-custom {
 		text-align: right;
 		float: left;
-		font-size: 36px;
 		width: 100%;
 	}
 	
@@ -432,7 +423,6 @@ body {
 	.navbar-custom {
 		text-align: right;
 		float: left;
-		font-size: 36px;
 		width: 100%;
 	}
 	
