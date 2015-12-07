@@ -377,6 +377,25 @@ body {
 	.bottom {
 		display: none;
 	}
+
+	.footer a div {
+		float: right;
+		height: 40px;
+		margin: 10px 15px 10px 0;
+		width: 40px;
+	}
+	
+	.footer a div span {
+		color: black;
+		font-size: 40px;
+		transition-property: color;
+		transition-duration: 0.3s;
+		transition-timing-function: linear;
+	}
+
+	.footer a div span:hover {
+		color: #00AEf6;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -411,6 +430,16 @@ body {
 	.nav > li > a:hover, .nav > li > a:focus {
 		background: transparent;
 	}
+
+	.social {
+		height: 35px;
+		margin-right: 12px;
+		width: 35px;
+	}
+
+	.social span {
+		font-size: 35px;
+	}
 	
 	.miDescripcion {
 		padding: 50px 7%;
@@ -427,6 +456,10 @@ body {
 	
 	.secundaria {
 		margin-top: 50px;
+	}
+
+	footer {
+		display: none;
 	}
 }
 
@@ -467,6 +500,10 @@ body {
 	.secundaria {
 		margin-top: 50px;
 	}
+
+	footer {
+		display: none;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -505,5 +542,9 @@ body {
 
 	.secundaria {
 		margin-top: 50px;
+	}
+
+	footer {
+		display: none;
 	}
 }
