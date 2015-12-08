@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('file:///Users/pi/Desktop/PFM/web/fonts/icomoon.eot?nm9qvc');
-	src:url('file:///Users/pi/Desktop/PFM/web/fonts/icomoon.eot?nm9qvc#iefix') format('embedded-opentype'),
-		url('file:///Users/pi/Desktop/PFM/web/fonts/icomoon.ttf?nm9qvc') format('truetype'),
-		url('file:///Users/pi/Desktop/PFM/web/fonts/icomoon.woff?nm9qvc') format('woff'),
-		url('file:///Users/pi/Desktop/PFM/web/fonts/icomoon.svg?nm9qvc#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?nm9qvc');
+	src:url('../fonts/icomoon.eot?nm9qvc#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?nm9qvc') format('truetype'),
+		url('../fonts/icomoon.woff?nm9qvc') format('woff'),
+		url('../fonts/icomoon.svg?nm9qvc#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
