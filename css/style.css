@@ -151,6 +151,16 @@ body {
 	width: 70%;
 }
 
+#malla-reloj {
+	max-width: 1024px;
+	width: 100%;
+}
+
+#detalle-reloj {
+	max-width: 1024px;
+	width: 100%;
+}
+
 #mockup-calendar {
 	width: 50%;
 }

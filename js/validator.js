@@ -45,8 +45,3 @@ $("#l3").click(function(){
 	$("#l1").removeClass("seccion");
 	$("#bs-menu").removeClass("in");
 });
-
-$('a[href*=#]').on('click', function(event){     
-	    event.preventDefault();
-		    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-});
