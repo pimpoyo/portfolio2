@@ -155,6 +155,16 @@ body {
 	width: 50%;
 }
 
+.cabecera {
+	border-top: 3px solid;
+	color: black;
+	font-size: 100px;
+	margin: 70px auto 0;
+	padding: 70px 0 50px;
+	text-align: center;
+	width: 50%;
+}
+
 .h-item {
   position: relative;
   -webkit-transition: all 0.35s ease-in-out;
@@ -264,7 +274,6 @@ body {
 }
 
 .miDescripcion {
-	padding: 50px;
 	text-align: justify;
 }
 
@@ -361,11 +370,12 @@ body {
 	}
 
 	#sobremi {
-		padding-top: 141px;
+		padding: 1px 0;
 	}
-	
-	#contacto {
-		padding-top: 141px;
+
+	.cabecera {
+		margin: 141px auto 0;
+		width: 70%;
 	}
 
 	.contenido {
@@ -527,6 +537,18 @@ body {
 	#mockup-cine {
 		padding: 10%;
 	}
+	
+	.cabecera {
+		width: 70%;
+	}	
+
+	.miDescripcion {
+		padding: 0 10%;
+	}
+
+	#form1 {
+		width: 80%;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -587,6 +609,18 @@ body {
 
 	#mockup-cine {
 		width: 100%;
+	}
+	
+	.cabecera {
+		width: 60%;
+	}	
+
+	.miDescripcion {
+		padding: 0 10%;
+	}
+
+	#form1 {
+		width: 80%;
 	}
 }
 
@@ -650,5 +684,13 @@ body {
 	#mockup-cine {
 		padding: 12%;
 		width: 70%;
+	}
+	
+	.miDescripcion {
+		padding: 0 20%;
+	}
+	
+	#form1 {
+		width: 60%;
 	}
 }
