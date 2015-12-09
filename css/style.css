@@ -187,6 +187,17 @@ body {
 	width: 80%;
 }
 
+#vtwin {
+	max-width: 595px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+#mockup-vtwin {
+	max-width: 1024px;
+	width: 80%;
+}
+
 .cabecera {
 	border-top: 3px solid;
 	color: black;
