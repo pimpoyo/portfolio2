@@ -165,6 +165,28 @@ body {
 	width: 50%;
 }
 
+#comp-modelo {
+	max-width: 1024px;
+	padding-top: 50px;
+	width: 80%;
+}
+
+#mockup-modelo {
+	max-width: 1024px;
+	width: 80%;
+}
+
+#banner-mundial {
+	max-width: 1024px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+#mockup-mundial {
+	max-width: 1024px;
+	width: 80%;
+}
+
 .cabecera {
 	border-top: 3px solid;
 	color: black;
