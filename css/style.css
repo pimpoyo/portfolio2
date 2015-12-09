@@ -297,7 +297,7 @@ body {
 }
 
 #contacto {
-	padding: 5px 35px 25px;
+	padding: 0 35px 25px;
 }
 
 #form1 {
@@ -371,6 +371,10 @@ body {
 
 	#sobremi {
 		padding: 1px 0;
+	}
+
+	#contacto {
+		padding: 1px 35px 25px;
 	}
 
 	.cabecera {
