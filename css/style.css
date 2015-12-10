@@ -235,6 +235,17 @@ body {
 	width: 80%;
 }
 
+#pnb {
+	max-width: 960px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+#8inteligencias {
+	max-width: 960px;
+	padding: 50px 0;
+	width: 80%;
+}
 
 .cabecera {
 	border-top: 3px solid;
@@ -541,6 +552,12 @@ body {
 	#mockup-cine {
 		padding: 10%;
 	}
+
+	#video-pnb {
+		height: 140px;
+		margin-bottom: 50px;
+		width: 258px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -634,6 +651,12 @@ body {
 	#form1 {
 		width: 80%;
 	}
+	
+	#video-pnb {
+		height: 246px;
+		margin-bottom: 50px;
+		width: 454px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -707,6 +730,12 @@ body {
 	#form1 {
 		width: 80%;
 	}
+
+	#video-pnb {
+		height: 206px;
+		margin-bottom: 50px;
+		width: 380px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -778,4 +807,11 @@ body {
 	#form1 {
 		width: 60%;
 	}
+
+	#video-pnb {
+		width: 640px;
+		height: 360px;
+		margin-bottom: 50px;
+	}
+
 }
