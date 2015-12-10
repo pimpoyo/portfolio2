@@ -246,6 +246,13 @@ body {
 	padding: 50px 0;
 	max-width: 960px;
 }
+
+#bbva {
+	width: 80%;
+	padding: 50px 0;
+	max-width: 870px;
+}
+
 .cabecera {
 	border-top: 3px solid;
 	color: black;
