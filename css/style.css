@@ -253,6 +253,13 @@ body {
 	max-width: 870px;
 }
 
+#aravaca {
+	border: 1px solid #EEEEEE;
+	width: 80%;
+	margin: 50px 0;
+	max-width: 800px;
+}
+
 #portada {
 	width: 80%;
 	padding: 50px 0;
