@@ -211,7 +211,7 @@ body {
 	width: 80%;
 }
 
-#cocinai2 {
+#cocina2 {
 	max-width: 942px;
 	padding: 50px 0;
 	width: 80%;
@@ -589,10 +589,12 @@ body {
 	
 	#cartelCine {
 		padding: 10%;
+		width: 100%;
 	}
 
 	#mockup-cine {
 		padding: 10%;
+		width: 100%;
 	}
 
 	#video-pnb {
@@ -820,8 +822,8 @@ body {
 	}
 	
 	.ih-item.square {
-		height: 20%;
-	  	width: 20%;
+		height: 25%;
+	  	width: 25%;
 	}
 
 	.secundaria {
