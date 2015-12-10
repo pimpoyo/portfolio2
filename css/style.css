@@ -241,12 +241,11 @@ body {
 	width: 80%;
 }
 
-#8inteligencias {
-	max-width: 960px;
-	padding: 50px 0;
+#repostal {
 	width: 80%;
+	padding: 50px 0;
+	max-width: 960px;
 }
-
 .cabecera {
 	border-top: 3px solid;
 	color: black;
