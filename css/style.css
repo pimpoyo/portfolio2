@@ -277,6 +277,12 @@ body {
 	max-width: 960px;
 }
 
+.amanuense {
+	width: 80%;
+	padding: 50px 0;
+	max-width: 960px;
+}
+
 .cabecera {
 	border-top: 3px solid;
 	color: black;
