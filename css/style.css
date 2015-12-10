@@ -147,6 +147,13 @@ body {
 	text-align: center;
 }
 
+.creditos {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;	
+	line-height: 19px;
+}
+
 #malla-calendar {
 	width: 70%;
 }
@@ -197,6 +204,37 @@ body {
 	max-width: 1024px;
 	width: 80%;
 }
+
+#cocina {
+	max-width: 960px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+#cocinai2 {
+	max-width: 942px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+#malla-tazon {
+	max-width: 960px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+#render-tazon {
+	max-width: 960px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+#tazon {
+	max-width: 960px;
+	padding: 50px 0;
+	width: 80%;
+}
+
 
 .cabecera {
 	border-top: 3px solid;
