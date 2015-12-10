@@ -253,6 +253,30 @@ body {
 	max-width: 870px;
 }
 
+#portada {
+	width: 80%;
+	padding: 50px 0;
+	max-width: 960px;
+}
+
+#sumario {
+	width: 80%;
+	padding: 50px 0;
+	max-width: 960px;
+}
+
+#paginas1 {
+	width: 80%;
+	padding: 50px 0;
+	max-width: 960px;
+}
+
+#paginas2 {
+	width: 80%;
+	padding: 50px 0;
+	max-width: 960px;
+}
+
 .cabecera {
 	border-top: 3px solid;
 	color: black;
