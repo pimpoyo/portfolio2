@@ -1,0 +1,14 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ffffff;
+	background-image: url("../img/pattern.png");
+	background-repeat: repeat;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 120%;
+	color: #555555;
+}
