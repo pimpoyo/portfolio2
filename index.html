@@ -34,26 +34,9 @@
     			</div><!-- /.navbar-collapse -->
 			</nav>
 			<nav class="navbar navbar-default navbar-custom secundaria" role="navigation">
-				<a href="https://es.pinterest.com/anapimpoyo/">
-					<div class="social">
-						<span class="icon-pinterest"> </span>
-					</div>
-				</a>
-				<a href="https://twitter.com/p1mp0y0">
-					<div class="social">
-						<span class="icon-twitter"> </span>
-					</div>
-				</a>
-				<a href="https://www.linkedin.com/in/pimpoyo">
-					<div class="social">
-						<span class="icon-linkedin"> </span>
-					</div>
-				</a>
-				<a href="https://github.com/pimpoyo">
-					<div class="social">
-						<span class="icon-github"> </span>
-					</div>
-				</a>
+				<div ng-repeat="social in socials">
+					<app-link link="social"></app-link>
+				</div>
 			</nav>
 			<div class="bottom">
 				<span class="icon-logo-short"> </span>
@@ -137,6 +120,7 @@
 	
 		<!-- Directives -->
 		<script src="js/directives/appInfo.js"></script>
+		<script src="js/directives/appLink.js"></script>
 	</body>
 	
 </html>

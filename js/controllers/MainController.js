@@ -117,4 +117,27 @@ app.controller('MainController', ['$scope', function($scope) {
         },
 
     ];
+
+    $scope.socials = [
+        {
+            url: 'https://es.pinterest.com/anapimpoyo/',
+            icon: 'icon-pinterest'
+        },
+
+        {
+            url: 'https://twitter.com/p1mp0y0',
+            icon: 'icon-twitter'
+        },
+
+        {
+            url: 'https://www.linkedin.com/in/pimpoyo',
+            icon: 'icon-linkedin'
+        },
+
+        {
+            url: 'https://github.com/pimpoyo',
+            icon: 'icon-github'
+        }
+    ];
+    
 }]);
