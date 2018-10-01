@@ -1,7 +1,9 @@
 app.controller('MainController', ['$scope', function($scope) { 
-    $scope.portfolio = 'Portfolio';
-    $scope.sobreMi = 'Sobre mí';
-    $scope.contacto = 'Contacto';
+    $scope.data = {
+        portfolio: 'Portfolio',
+        sobreMi: 'Sobre mí',
+        contacto: 'Contacto'
+    };
 
     $scope.products = [
         {
