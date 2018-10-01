@@ -18,3 +18,11 @@
         </ul>
     </div><!-- /.navbar-collapse -->
 </nav>
+<nav class="navbar navbar-default navbar-custom secundaria" role="navigation">
+    <a ng-repeat="social in menu.socials" href="{{ social.url }}">
+        <app-link link="social"></app-link>
+    </a>
+</nav>
+<div class="bottom">
+    <span class="icon-logo-short"> </span>
+</div>
