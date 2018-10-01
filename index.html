@@ -15,6 +15,14 @@
 	<body ng-app="PortfolioApp">
 		<div class="menu" ng-controller="MainController">
 			<app-menu menu="data"></app-menu>
+			<nav class="navbar navbar-default navbar-custom secundaria" role="navigation">
+				<a ng-repeat="social in socials" href="{{ social.url }}">
+					<app-link link="social"></app-link>
+				</a>
+			</nav>
+			<div class="bottom">
+				<span class="icon-logo-short"> </span>
+			</div>
 		</div>
 		<div class="contenido" ng-controller="MainController">
 			<div id="portfolio">
@@ -58,30 +66,6 @@
 				   </form>
 			 </div>
 		</div>
-		<footer>
-			<div class="footer">
-				<a href="https://es-es.facebook.com/people/Ana-Isabel-G%C3%B3mez-Pimpoyo-Fern%C3%A1ndez/100008501859487">
-					<div>
-						<span class="icon-pinterest"> </span>
-					</div>
-				</a>
-				<a href="https://twitter.com/p1mp0y0">
-					<div>
-						<span class="icon-twitter"> </span>
-					</div>
-				</a>
-				<a href="https://www.linkedin.com/in/ana-isabel-g%C3%B3mez-pimpoyo-fern%C3%A1ndez-7a0b97b3">
-					<div>
-						<span class="icon-linkedin"> </span>
-					</div>
-				</a>
-				<a href="https://github.com/pimpoyo">
-					<div>
-						<span class="icon-github"> </span>
-					</div>
-				</a>
-			</div>
-		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/validator.js"></script>
