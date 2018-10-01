@@ -4,6 +4,6 @@ app.directive('appLink', function() {
         scope: { 
             link: '=' 
         }, 
-        templateUrl: 'js/directives/appLink.html' 
+        templateUrl: 'http://localhost:8888/webAngular/js/directives/appLink.html' 
     }; 
 });

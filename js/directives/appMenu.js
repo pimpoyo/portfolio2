@@ -4,6 +4,6 @@ app.directive('appMenu', function() {
         scope: {
             menu: '='
         }, 
-        templateUrl: 'js/directives/appMenu.html' 
+        templateUrl: 'http://localhost:8888/webAngular/js/directives/appMenu.html' 
     }; 
 });

@@ -1,8 +1,18 @@
 app.controller('MainController', ['$scope', function($scope) { 
     $scope.data = {
-        portfolio: 'Portfolio',
-        sobreMi: 'Sobre mí',
-        contacto: 'Contacto',
+        portfolio: { 
+            title: 'Portfolio',
+            url: 'http://localhost:8888/webAngular/index.html#portfolio'
+        },
+        sobreMi: {
+            title: 'Sobre mí',
+            url: 'http://localhost:8888/webAngular/index.html#sobremi'
+        },
+        contacto: {
+            title: 'Contacto',
+            url: 'http://localhost:8888/webAngular/index.html#contacto'
+        },
+        
         socials: [
             {
                 url: 'https://es.pinterest.com/anapimpoyo/',

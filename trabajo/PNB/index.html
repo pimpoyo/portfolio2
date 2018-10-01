@@ -1,103 +1,52 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,400italic,300,400,700,900' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="../../css/normalize.css">
-		<link rel="stylesheet" href="../../css/bootstrap.css">
-		<link rel="stylesheet" href="../../css/style.css">
-		<link rel="stylesheet" href="../../css/icons.css">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link type="image/vnd.microsoft.icon" rel="shortcut icon" href="../../img/favicon.ico">	
-		<title>Pimpoyo</title>
-	</head>
-	<body>
-		<div class="menu">
-			<a class="navbar-brand" href="../../index.html">
-				<span class="icon-logo"> </span>
-			</a>
-			<nav class="navbar navbar-default navbar-custom" role="navigation">
-    			<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu" aria-expanded="false">
-            			<span class="icon-bar"></span>
-            			<span class="icon-bar"></span>
-            			<span class="icon-bar"></span>
-        			</button>
-    			</div>
-    			<div class="collapse navbar-collapse" id="bs-menu">
-        			<ul class="nav nav-stacked">
-						<li id="l1"><a data-hover="Portfolio" href="../../index.html#portfolio" class="portfolio">Portfolio</a></li>
-						<li id="l2"><a data-hover="Sobre.mí" href="../../index.html#sobremi" class="sobre-mi">Sobre mí</a></li>
-						<li id="l3"><a data-hover="Contacto" href="../../index.html#contacto" class="contacto">Contacto</a></li>
-        			</ul>
-    			</div><!-- /.navbar-collapse -->
-			</nav>
-			<nav class="navbar navbar-default navbar-custom secundaria" role="navigation">
-				<a href="https://es.pinterest.com/anapimpoyo/">
-					<div class="social">
-						<span class="icon-pinterest"> </span>
-					</div>
-				</a>
-				<a href="https://twitter.com/p1mp0y0">
-					<div class="social">
-						<span class="icon-twitter"> </span>
-					</div>
-				</a>
-				<a href="https://www.linkedin.com/in/ana-isabel-g%C3%B3mez-pimpoyo-fern%C3%A1ndez-7a0b97b3">
-					<div class="social">
-						<span class="icon-linkedin"> </span>
-					</div>
-				</a>
-				<a href="https://github.com/pimpoyo">
-					<div class="social">
-						<span class="icon-github"> </span>
-					</div>
-				</a>
-			</nav>
-			<div class="bottom">
-				<span class="icon-logo-short"> </span>
-			</div>
-		</div>
-		<div class="contenido contenido2">
-			<div class="trabajo-texto">
-				<h1 class="titulo">PNB</h1>
-				<p>Se ha utilizado Hype para la creación de este manual interactivo. El usuario puede ir aprendiendo las diferentes partes del barco y su
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://localhost:8888/webAngular/css/normalize.css">
+	<link rel="stylesheet" href="http://localhost:8888/webAngular/css/bootstrap.css">
+	<link rel="stylesheet" href="http://localhost:8888/webAngular/css/style.css">
+	<link rel="stylesheet" href="http://localhost:8888/webAngular/css/icons.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/vnd.microsoft.icon" rel="shortcut icon" href="http://localhost:8888/webAngular/img/favicon.ico">
+	<title>Pimpoyo</title>
+</head>
+
+<body ng-app="PortfolioApp">
+	<div class="menu" ng-controller="MainController">
+		<app-menu menu="data"></app-menu>
+	</div>
+	<div class="contenido contenido2">
+		<div class="trabajo-texto">
+			<h1 class="titulo">PNB</h1>
+			<p>Se ha utilizado Hype para la creación de este manual interactivo. El usuario puede ir aprendiendo las diferentes
+				partes del barco y su
 				definición mediante clicks de ratón. Al final hay un juego para probar los conocimientos adquiridos.</p>
-				<p class="creditos">Ana Isabel Gómez-Pimpoyo</p>
-				<p class="creditos">Junio 2015</p>
-				<p class="creditos">Animación Web</p>
-			</div>
-			<div class="imagenes">
-				<img id="pnb" src="img/pnb.jpg" alt="img">
-				<iframe id="video-pnb" src="https://www.youtube.com/embed/GBCakPs7nmc" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div> <!-- contenido -->
-		<footer>
-			<div class="footer">
-				<a href="https://es.pinterest.com/anapimpoyo/">
-					<div>
-						<span class="icon-pinterest"> </span>
-					</div>
-				</a>
-				<a href="https://twitter.com/p1mp0y0">
-					<div>
-						<span class="icon-twitter"> </span>
-					</div>
-				</a>
-				<a href="https://www.linkedin.com/in/ana-isabel-g%C3%B3mez-pimpoyo-fern%C3%A1ndez-7a0b97b3">
-					<div>
-						<span class="icon-linkedin"> </span>
-					</div>
-				</a>
-				<a href="https://github.com/pimpoyo">
-					<div>
-						<span class="icon-github"> </span>
-					</div>
-				</a>
-			</div>
-		</footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="../../js/bootstrap.js"></script>
-		<script src="../../js/validator.js"></script>
-	</body>
+			<p class="creditos">Ana Isabel Gómez-Pimpoyo</p>
+			<p class="creditos">Junio 2015</p>
+			<p class="creditos">Animación Web</p>
+		</div>
+		<div class="imagenes">
+			<img id="pnb" src="img/pnb.jpg" alt="img">
+			<iframe id="video-pnb" src="https://www.youtube.com/embed/GBCakPs7nmc" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div> <!-- contenido -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="http://localhost:8888/webAngular/js/bootstrap.js"></script>
+	<script src="http://localhost:8888/webAngular/js/validator.js"></script>
+
+	<!-- Modules -->
+	<script src="http://localhost:8888/webAngular/js/app.js"></script>
+
+	<!-- Controllers -->
+	<script src="http://localhost:8888/webAngular/js/controllers/MainController.js"></script>
+
+	<!-- Directives -->
+	<script src="http://localhost:8888/webAngular/js/directives/appLink.js"></script>
+	<script src="http://localhost:8888/webAngular/js/directives/appMenu.js"></script>
+</body>
+
 </html>

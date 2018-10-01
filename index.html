@@ -1,77 +1,87 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/icons.css">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link type="image/vnd.microsoft.icon" rel="shortcut icon" href="img/favicon.ico">
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-		<title>Pimpoyo</title>
-	</head>
-	<body ng-app="PortfolioApp">
-		<div class="menu" ng-controller="MainController">
-			<app-menu menu="data"></app-menu>
-		</div>
-		<div class="contenido" ng-controller="MainController">
-			<div id="portfolio">
-				<div class="grid">
-			    	<div class="ih-item square effect13 bottom_to_top" ng-repeat="product in products">
-						<app-info info="product"></app-info>
-					</div>	
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/icons.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/vnd.microsoft.icon" rel="shortcut icon" href="img/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<title>Pimpoyo</title>
+</head>
+
+<body ng-app="PortfolioApp">
+	<div class="menu" ng-controller="MainController">
+		<app-menu menu="data"></app-menu>
+	</div>
+	<div class="contenido" ng-controller="MainController">
+		<div id="portfolio">
+			<div class="grid">
+				<div class="ih-item square effect13 bottom_to_top" ng-repeat="product in products">
+					<app-info info="product"></app-info>
 				</div>
 			</div>
-			<div id="sobremi">
-				<div class="cabecera">
-					<span class="icon-sobremi"> </span>
-				</div>
-				<div class="miDescripcion">
-					<p>Mi nombre es Ana. Soy ingeniero técnico informático y diseñador gráfico.</p> 
-					<p>El diseño y la programación web es mi estilo de vida. Creo en la pasión, en el cuidado del detalle, porque hace que el diseño sea especial en cada proyecto y tengan ese "toque" de  personalidad que los hace diferentes del resto.</p>
-					<p>Mi experiencia profesional, está avalada por todos los proyectos en los que he participado, abarcando desde la experiencia de usuario a la administración de los sistemas.</p>
-					<p>Estos objetivos se consiguen mediante un diseño simple y eficaz, y una actualización rápida de los contenidos, apoyada por una gestión integrada del proyecto y un seguimiento del producto desde su inicio hasta su entrega.</p>
-					<p class="oscuro">Echa un vistazo a mi <a class="enlace" href="#portfolio">portfolio</a> y usa el formulario de <a class="enlace" href="#contacto">contacto</a>.</p>	
-					<p class="oscuro">Si quieres saber más también puedes consultar mi currículum <a target="_blank" class="enlace" href="pdf/curriculum.pdf">aquí</a>.</p>	
-				</div>
-			</div>
-			<div id="contacto">
-				<div class="cabecera">
-					<span class="icon-contacto"> </span>
-				</div>
-				<form id="form1" action="php/validator.php" method="POST">
-    		          <h3 class="form-title">Si quieres saber más o ponerte en contacto conmigo, estaré encantada de atenderte.</h3>
-    		           <p class="name">
-						   <input name="name" type="text" class="feedback-input" placeholder="Nombre" id="name" pattern=".{3,}" maxlength="100" required/>
-    		           </p>
-    		           <p class="email">
-    		             <input name="email" type="email" class="feedback-input" id="email" placeholder="Email" maxlength="100" required/>
-    		           </p>
-    		           <p class="textArea">
-    		             <textarea name="textArea" class="feedback-input" id="textArea" placeholder="Texto" rows="10" maxlength="1000" required></textarea>
-    		           </p>
-    		           <div class="submit">
-    		               <input type="submit" value="Enviar" id="button" class="btGeneral"/>
-    		           </div>
-				   </form>
-			 </div>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/validator.js"></script>
+		<div id="sobremi">
+			<div class="cabecera">
+				<span class="icon-sobremi"> </span>
+			</div>
+			<div class="miDescripcion">
+				<p>Mi nombre es Ana. Soy ingeniero técnico informático y diseñador gráfico.</p>
+				<p>El diseño y la programación web es mi estilo de vida. Creo en la pasión, en el cuidado del detalle, porque hace
+					que el diseño sea especial en cada proyecto y tengan ese "toque" de personalidad que los hace diferentes del
+					resto.</p>
+				<p>Mi experiencia profesional, está avalada por todos los proyectos en los que he participado, abarcando desde la
+					experiencia de usuario a la administración de los sistemas.</p>
+				<p>Estos objetivos se consiguen mediante un diseño simple y eficaz, y una actualización rápida de los contenidos,
+					apoyada por una gestión integrada del proyecto y un seguimiento del producto desde su inicio hasta su entrega.</p>
+				<p class="oscuro">Echa un vistazo a mi <a class="enlace" href="#portfolio">portfolio</a> y usa el formulario de <a
+					 class="enlace" href="#contacto">contacto</a>.</p>
+				<p class="oscuro">Si quieres saber más también puedes consultar mi currículum <a target="_blank" class="enlace"
+					 href="pdf/curriculum.pdf">aquí</a>.</p>
+			</div>
+		</div>
+		<div id="contacto">
+			<div class="cabecera">
+				<span class="icon-contacto"> </span>
+			</div>
+			<form id="form1" action="php/validator.php" method="POST">
+				<h3 class="form-title">Si quieres saber más o ponerte en contacto conmigo, estaré encantada de atenderte.</h3>
+				<p class="name">
+					<input name="name" type="text" class="feedback-input" placeholder="Nombre" id="name" pattern=".{3,}" maxlength="100"
+					 required />
+				</p>
+				<p class="email">
+					<input name="email" type="email" class="feedback-input" id="email" placeholder="Email" maxlength="100" required />
+				</p>
+				<p class="textArea">
+					<textarea name="textArea" class="feedback-input" id="textArea" placeholder="Texto" rows="10" maxlength="1000"
+					 required></textarea>
+				</p>
+				<div class="submit">
+					<input type="submit" value="Enviar" id="button" class="btGeneral" />
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/validator.js"></script>
 
-		<!-- Modules -->
-		<script src="js/app.js"></script>
+	<!-- Modules -->
+	<script src="js/app.js"></script>
 
-		<!-- Controllers -->
-		<script src="js/controllers/MainController.js"></script>
-	
-		<!-- Directives -->
-		<script src="js/directives/appInfo.js"></script>
-		<script src="js/directives/appLink.js"></script>
-		<script src="js/directives/appMenu.js"></script>
-	</body>
-	
+	<!-- Controllers -->
+	<script src="js/controllers/MainController.js"></script>
+
+	<!-- Directives -->
+	<script src="js/directives/appInfo.js"></script>
+	<script src="js/directives/appLink.js"></script>
+	<script src="js/directives/appMenu.js"></script>
+</body>
+
 </html>
